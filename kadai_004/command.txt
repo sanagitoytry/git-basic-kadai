@@ -1,0 +1,27 @@
+PS C:\Users\sanag\git_challenge> git init  
+Initialized empty Git repository in C:/Users/sanag/git_challenge/.git/
+PS C:\Users\sanag\git_challenge> git add hello_world.txt
+PS C:\Users\sanag\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 4a088eb] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\sanag\git_challenge> git add hello_world.txt
+PS C:\Users\sanag\git_challenge> git commit -m "日本語訳を追記"       
+[main 1814f53] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\sanag\git_challenge> git log
+commit 1814f53cf4dc751de5221fa9aa52b732b7514b11 (HEAD -> main)
+Author: sanagitoytry <sanagitoytry@gmail.com>
+Date:   Fri Nov 24 12:46:28 2023 +0900
+
+    日本語訳を追記
+
+commit 4a088eb97ab74619243abd3443cb2454aaa336ec
+Author: sanagitoytry <sanagitoytry@gmail.com>
+Date:   Fri Nov 24 12:45:41 2023 +0900
+
+    hello_world.txtを追加
+PS C:\Users\sanag\git_challenge> git log --oneline
+1814f53 (HEAD -> main) 日本語訳を追記
+4a088eb hello_world.txtを追加
+PS C:\Users\sanag\git_challenge> 
